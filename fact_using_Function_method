@@ -1,0 +1,22 @@
+/*Factorial using Funtion Method*/
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    b=fact(a);
+    printf("Fact of the given number:%d",b);
+    return 0;
+}
+ int fact(int z)
+{
+  int c,d=1;
+  printf("Enter the Fact number\n");
+  scanf("%d",&c);
+  while(c>1)
+  {
+      d=c*d;
+      c=c-1;
+  }
+  return (d);
+} 
